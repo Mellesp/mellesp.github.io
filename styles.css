@@ -1,0 +1,100 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  /*border: 0.1em solid black;*/
+}
+
+.header-main {
+  background-color: rgb(25, 128, 255);
+  box-shadow: 0 0.1em 0.2em rgba(0, 0, 0, 0.75);
+  margin-bottom: 1em;
+  width: 100%;
+}
+
+h1 {
+  color: white;
+  margin: 0px;
+  padding: 0.5em;
+  font-family: "Arial";
+  text-shadow: 1px 1px black;
+}
+
+h2 {
+  color: white;
+  font-family: arial;
+  font-size: 1em;
+  text-shadow: 1px 1px black;
+  padding: 0.5em;
+}
+
+.img-logo {
+  height: 20em;
+}
+
+.input-field {
+  height: 1.5em;
+  width: 20em;
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-top: 0.25em;
+  border: 0.1em solid rgb(25, 128, 255);
+}
+
+.input-label {
+  font-family: "Arial";
+  font-size: 1.2em;
+}
+
+.input-button {
+  color: white;
+  font-size: 1.2em;
+  padding: 0.5em;
+  background-color: rgb(25, 128, 255);
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20%;
+  margin-top: 0.5em;
+}
+
+.footer-main {
+  background-color: rgb(25, 128, 255);
+  box-shadow: 0 -0.1em 0.2em rgba(0, 0, 0, 0.75);
+  margin-top: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.landing {
+  background-color: rgba(25, 128, 255, 0.3);
+  border-radius: 25%;
+  border: 0.05em solid rgb(25, 128, 255);
+  height: 15em;
+  width: 25em;
+  text-align: center;
+  margin: auto;
+  box-shadow: 0 0.1em 0.2em rgb(25, 128, 255, 0.5);
+  padding: 4em;
+}
+
+.p-text1 {
+  margin-top: 0.2em;
+  font-size: 2em;
+  font-family: arial;
+  color: black;
+}
+
+.p-text2 {
+  font-size: 1.2em;
+  font-family: arial;
+  color: black;
+}
+
+.p-text3 {
+  font-size: 2em;
+  font-family: arial;
+  color: black;
+}
